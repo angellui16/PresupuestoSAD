@@ -1,0 +1,13 @@
+c:\users\angel\documents\visual studio 2015\Projects\dll_Moneda\dll_Moneda\bin\Debug\dll_Moneda.dll
+c:\users\angel\documents\visual studio 2015\Projects\dll_Moneda\dll_Moneda\bin\Debug\dll_Moneda.pdb
+c:\users\angel\documents\visual studio 2015\Projects\dll_Moneda\dll_Moneda\bin\Debug\dll_Moneda.xml
+c:\users\angel\documents\visual studio 2015\Projects\dll_Moneda\dll_Moneda\bin\Debug\dllConexion.dll
+c:\users\angel\documents\visual studio 2015\Projects\dll_Moneda\dll_Moneda\bin\Debug\dllConexion.pdb
+c:\users\angel\documents\visual studio 2015\Projects\dll_Moneda\dll_Moneda\bin\Debug\dllConexion.xml
+c:\users\angel\documents\visual studio 2015\Projects\dll_Moneda\dll_Moneda\obj\Debug\dll_Moneda.Resources.resources
+c:\users\angel\documents\visual studio 2015\Projects\dll_Moneda\dll_Moneda\obj\Debug\dll_Moneda.Moneda.resources
+c:\users\angel\documents\visual studio 2015\Projects\dll_Moneda\dll_Moneda\obj\Debug\dll_Moneda.vbproj.GenerateResource.Cache
+c:\users\angel\documents\visual studio 2015\Projects\dll_Moneda\dll_Moneda\obj\Debug\dll_Moneda.dll
+c:\users\angel\documents\visual studio 2015\Projects\dll_Moneda\dll_Moneda\obj\Debug\dll_Moneda.xml
+c:\users\angel\documents\visual studio 2015\Projects\dll_Moneda\dll_Moneda\obj\Debug\dll_Moneda.pdb
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dll_Moneda\dll_Moneda\obj\Debug\dll_Moneda.vbprojResolveAssemblyReference.cache
