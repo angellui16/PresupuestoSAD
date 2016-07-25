@@ -1,0 +1,12 @@
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dll_Empresa\dll_Empresa\bin\Debug\dll_Empresa.dll
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dll_Empresa\dll_Empresa\bin\Debug\dll_Empresa.pdb
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dll_Empresa\dll_Empresa\bin\Debug\dll_Empresa.xml
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dll_Empresa\dll_Empresa\bin\Debug\dllConexion.dll
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dll_Empresa\dll_Empresa\bin\Debug\dllConexion.pdb
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dll_Empresa\dll_Empresa\bin\Debug\dllConexion.xml
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dll_Empresa\dll_Empresa\obj\Debug\dll_Empresa.Resources.resources
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dll_Empresa\dll_Empresa\obj\Debug\dll_Empresa.Empresa.resources
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dll_Empresa\dll_Empresa\obj\Debug\dll_Empresa.vbproj.GenerateResource.Cache
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dll_Empresa\dll_Empresa\obj\Debug\dll_Empresa.dll
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dll_Empresa\dll_Empresa\obj\Debug\dll_Empresa.xml
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dll_Empresa\dll_Empresa\obj\Debug\dll_Empresa.pdb
