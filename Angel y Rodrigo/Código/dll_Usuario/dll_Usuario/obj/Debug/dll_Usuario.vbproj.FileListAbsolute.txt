@@ -1,0 +1,12 @@
+c:\users\angel\documents\visual studio 2015\Projects\dll_Usuario\dll_Usuario\bin\Debug\dll_Usuario.dll
+c:\users\angel\documents\visual studio 2015\Projects\dll_Usuario\dll_Usuario\bin\Debug\dll_Usuario.pdb
+c:\users\angel\documents\visual studio 2015\Projects\dll_Usuario\dll_Usuario\bin\Debug\dll_Usuario.xml
+c:\users\angel\documents\visual studio 2015\Projects\dll_Usuario\dll_Usuario\bin\Debug\dllConexion.dll
+c:\users\angel\documents\visual studio 2015\Projects\dll_Usuario\dll_Usuario\bin\Debug\dllConexion.pdb
+c:\users\angel\documents\visual studio 2015\Projects\dll_Usuario\dll_Usuario\bin\Debug\dllConexion.xml
+c:\users\angel\documents\visual studio 2015\Projects\dll_Usuario\dll_Usuario\obj\Debug\dll_Usuario.Resources.resources
+c:\users\angel\documents\visual studio 2015\Projects\dll_Usuario\dll_Usuario\obj\Debug\dll_Usuario.Usuarios.resources
+c:\users\angel\documents\visual studio 2015\Projects\dll_Usuario\dll_Usuario\obj\Debug\dll_Usuario.vbproj.GenerateResource.Cache
+c:\users\angel\documents\visual studio 2015\Projects\dll_Usuario\dll_Usuario\obj\Debug\dll_Usuario.dll
+c:\users\angel\documents\visual studio 2015\Projects\dll_Usuario\dll_Usuario\obj\Debug\dll_Usuario.xml
+c:\users\angel\documents\visual studio 2015\Projects\dll_Usuario\dll_Usuario\obj\Debug\dll_Usuario.pdb
