@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "dll_gva", "dll_gva\dll_gva.vbproj", "{9944F2A9-E12C-4335-AE64-A9D758A2235D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9944F2A9-E12C-4335-AE64-A9D758A2235D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9944F2A9-E12C-4335-AE64-A9D758A2235D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9944F2A9-E12C-4335-AE64-A9D758A2235D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9944F2A9-E12C-4335-AE64-A9D758A2235D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

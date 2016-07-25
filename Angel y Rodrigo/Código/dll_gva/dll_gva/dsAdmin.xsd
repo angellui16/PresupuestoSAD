@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAdmin" targetNamespace="http://tempuri.org/dsAdmin.xsd" xmlns:mstns="http://tempuri.org/dsAdmin.xsd" xmlns="http://tempuri.org/dsAdmin.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAdmin" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsAdmin" msprop:Generator_UserDSName="dsAdmin">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DtAdmin" msprop:Generator_TableClassName="DtAdminDataTable" msprop:Generator_TableVarName="tableDtAdmin" msprop:Generator_TablePropName="DtAdmin" msprop:Generator_RowDeletingName="DtAdminRowDeleting" msprop:Generator_RowChangingName="DtAdminRowChanging" msprop:Generator_RowEvHandlerName="DtAdminRowChangeEventHandler" msprop:Generator_RowDeletedName="DtAdminRowDeleted" msprop:Generator_UserTableName="DtAdmin" msprop:Generator_RowChangedName="DtAdminRowChanged" msprop:Generator_RowEvArgName="DtAdminRowChangeEvent" msprop:Generator_RowClassName="DtAdminRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GastosAdmin" msprop:Generator_ColumnVarNameInTable="columnGastosAdmin" msprop:Generator_ColumnPropNameInRow="GastosAdmin" msprop:Generator_ColumnPropNameInTable="GastosAdminColumn" msprop:Generator_UserColumnName="GastosAdmin" type="xs:string" minOccurs="0" />
+              <xs:element name="CantidadAdmin" msprop:Generator_ColumnVarNameInTable="columnCantidadAdmin" msprop:Generator_ColumnPropNameInRow="CantidadAdmin" msprop:Generator_ColumnPropNameInTable="CantidadAdminColumn" msprop:Generator_UserColumnName="CantidadAdmin" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
