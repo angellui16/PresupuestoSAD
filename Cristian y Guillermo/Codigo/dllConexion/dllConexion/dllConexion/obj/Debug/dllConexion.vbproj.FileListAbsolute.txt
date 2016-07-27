@@ -1,0 +1,9 @@
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dllConexion\dllConexion\bin\Debug\dllConexion.dll.config
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dllConexion\dllConexion\bin\Debug\dllConexion.dll
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dllConexion\dllConexion\bin\Debug\dllConexion.pdb
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dllConexion\dllConexion\bin\Debug\dllConexion.xml
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dllConexion\dllConexion\obj\Debug\dllConexion.Resources.resources
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dllConexion\dllConexion\obj\Debug\dllConexion.vbproj.GenerateResource.Cache
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dllConexion\dllConexion\obj\Debug\dllConexion.dll
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dllConexion\dllConexion\obj\Debug\dllConexion.xml
+C:\Users\angel\Documents\Visual Studio 2015\Projects\dllConexion\dllConexion\obj\Debug\dllConexion.pdb

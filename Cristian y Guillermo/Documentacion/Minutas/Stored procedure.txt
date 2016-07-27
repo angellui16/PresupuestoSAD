@@ -1,0 +1,78 @@
+create procedure SP_Reporte_Resultados
+
+@nombre as varchar(25)
+
+as
+
+select erp_nombre, erp_periodo, prv_nombre_presupuesto2, prv_total_producto2, pcv_nombre, pcv_grantotal, gva_nombre, gva_grantotal, erp_utilidad_bruta, erp_utilidad_operacion, erp_ingresos_gastos, erp_utilidad_aisr, erp_isr, erp_utilidad_neta, emp_nombre_empresa2, usr_usuario, mnd_moneda2
+from tbl_frm_estadoresultados A, tbl_frm_presupuesto_ventas2 B, tbl_frm_presupuesto_cv C, tbl_frm_presupuesto_gva D, tbl_frm_empresa2 E, tbl_frm_usuario F, tbl_frm_moneda2 G
+where erp_nombre = @nombre and B.id_presupuesto_ventas2 = A.id_presupuesto_ventas and C.id_presupuesto_cv = A.id_presupuesto_cv and D.id_presupuesto_gva = A.id_presupuesto_gva and E.id_empresa2 = A.id_empresa2 and F.id_usuario = A.id_usuario and G.id_moneda2 = A.id_moneda2
+
+
+
+
+
+
+create procedure SP_Reporte_ici
+
+@nombre as varchar(25)
+
+as
+
+select ici_nombre,ici_periodo,ici_grantotal, imp_nombre, imp_subtotal, emp_nombre_empresa2, usr_usuario, mnd_moneda2
+from tbl_frm_presupuesto_ici A, tbl_frm_imp_costosind B, tbl_frm_empresa2 C, tbl_frm_usuario D, tbl_frm_moneda2 E
+where  A.id_presupuesto_ici = B.id_presupuesto_ic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No se controló System.FormatException
+  HResult=-2146233033
+  Message=Input string was not in a correct format.
+  Source=mscorlib
+  StackTrace:
+       at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+       at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+       at System.Convert.ToDecimal(String value)
+       at dll_costoventa.wfCostoVenta.txtcmdt_PreviewKeyDown(Object sender, PreviewKeyDownEventArgs e) in C:\Users\cristian\Desktop\dll_costoventa\dll_costoventa\wfCostoVenta.vb:line 237
+       at System.Windows.Forms.Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)
+       at System.Windows.Forms.Control.PreProcessControlMessageInternal(Control target, Message& msg)
+       at System.Windows.Forms.Application.ThreadContext.PreTranslateMessage(MSG& msg)
+       at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FPreTranslateMessage(MSG& msg)
+       at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+       at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+       at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+       at Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.OnRun()
+       at Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.DoApplicationModel()
+       at Microsoft.VisualBasic.ApplicationServices.WindowsFormsApplicationBase.Run(String[] commandLine)
+       at PruebasPresupuestos.My.MyApplication.Main(String[] Args) in :line 81
+       at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+       at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+       at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+       at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+       at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+       at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+       at System.Threading.ThreadHelper.ThreadStart()
+  InnerException: 

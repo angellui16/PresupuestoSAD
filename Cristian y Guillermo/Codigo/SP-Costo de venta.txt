@@ -1,0 +1,10 @@
+create procedure SP_Reporte_Cv
+
+@nombre as varchar(25)
+
+as
+
+select  pcv_nombre,pcv_periodo, pcv_grantotal,ceq_almacen_artterminados_estimado, ceq_produccion_proceso_inv_estimado, ceq_resta_matd_invmatd, ceq_costo_matd_traspasadosp,ceq_total_costo_produccion, ceq_total_prod_proceso, ceq_produccion_proceso_inv_deseado, ceq_costprod_artterminados,ceq_costart_termdispo, ceq_almacen_artterminados_deseado, emp_nombre_empresa2, usr_usuario, mnd_moneda2
+from tbl_frm_presupuesto_cv A, tbl_frm_costos_equivalentes B,tbl_frm_compras_matdirectos C, tbl_frm_presupuesto_mod D, tbl_frm_presupuesto_ici H, tbl_frm_empresa2 E, tbl_frm_usuario F, tbl_frm_moneda2 G
+where pcv_nombre = @nombre and A.id_presupuesto_cv = B.id_presupuesto_cv and B.id_compras_matdirectos = C.id_compras_matdirectos and B.id_presupuesto_mod = D.id_presupuesto_mod and B.id_presupuesto_ici = H.id_presupuesto_ici and E.id_empresa2 = A.id_empresa2 and F.id_usuario = A.id_usuario and G.id_moneda2 = A.id_moneda2
+

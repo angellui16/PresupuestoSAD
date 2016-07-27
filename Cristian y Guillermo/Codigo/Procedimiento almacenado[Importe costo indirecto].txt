@@ -1,0 +1,10 @@
+create procedure SP_Reporte_ici
+
+@nombre as varchar(25)
+
+as
+
+select ici_nombre,ici_periodo,ici_grantotal, imp_nombre, imp_subtotal, emp_nombre_empresa2, usr_usuario, mnd_moneda2
+from tbl_frm_presupuesto_ici A, tbl_frm_imp_costosind B,  tbl_frm_empresa2 E, tbl_frm_usuario F, tbl_frm_moneda2 G
+where  A.id_presupuesto_ici = B.id_presupuesto_ici and E.id_empresa2 = A.id_empresa2 and F.id_usuario = A.id_usuario and G.id_moneda2 = A.id_moneda2
+
